@@ -8,31 +8,34 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
+// /Users/srinivasamurthykrishnamurthy/Documents/Srinivas (MS)/Portfolio/cv/.gitignore
+
 export const RESUME_DATA = {
   name: "Srinivasa Murthy K",
   initials: "SMK",
-  location: "Chico CA, United States",
-  locationLink: "https://www.google.com/maps/place/Chico,+CA",
+  location: "San Francisco, CA, United States",
+  locationLink: "https://maps.app.goo.gl/L4LYsanf9WWVXKet5",
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
-      Backend-focused Full Stack Engineer specializing in high-performance
-      Django applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in software architecture design and team
-      leadership.
+      Software Developer with 4+ years of experience building secure, high-performance systems using Java, 
+      Spring Boot, Python, Django, and AWS. Completed MS in Computer Science from CSU Chico. Delivered scalable 
+      solutions like CodeWit.us and a QuickBooks-style ERP, improving API throughput by 22%, reducing 
+      infrastructure costs by 20%, and securing financial workflows using JWT and Spring Security. 
+      Skilled in API design, microservices, and containerized deployments.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/124085326?&v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/124085326?s=400&u=326b91d275d548cc7d206a6a960c0f1faaf0e23e&v=4",
   // https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpub%2Fdir%2FSrinivasa%2FKrishna%2BMurthy&psig=AOvVaw3dKkx3qrlMuoAYXOGLbcEW&ust=1736640641583000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOC_7diw7IoDFQAAAAAdAAAAABAE
-  personalWebsiteUrl: "https://srinivasa-murthy.com",
+  personalWebsiteUrl: "https://www.srinivasa-murthy.com",
   contact: {
     email: "srinivasamurthyk1996@gmail.com",
     tel: "+15305667761",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/murthy01",
+        url: "https://github.com/murthy-001",
         icon: GitHubIcon,
       },
       {
@@ -42,7 +45,7 @@ export const RESUME_DATA = {
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/murthy0001",
         icon: XIcon,
       },
     ],
@@ -63,47 +66,60 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-//       Software Developer, Accenture (Jan 2024 – Present | Remote, USA)
-// Designed and developed high-performance applications using Java and Python.
-// Built and integrated secure, scalable RESTful APIs, optimizing data transfer by 25%.
-// Enhanced data processing algorithms, boosting system efficiency by 22%.
-// Led Agile development efforts, improving project delivery speed by 28%.
-      company: "Accenture",
-      link: "https://www.accenture.com/us-en",
-      badges: ["React", "Next.js", "TypeScript", "Python", "RESTful APIs"],
-      title: "Software Developer",
+      company: "CSU, Chico",
+      link: "https://www.csuchico.edu/",
+      badges: [
+        "Python",
+        "Django",
+        "RESTful APIs",
+        "Docker",
+        "PostgreSQL",
+        "Git",
+        "Agile",
+        "Scrum",
+        "AWS"
+      ],
+      title: "Software Engineer",
       logo: ConsultlyLogo,
-      start: "Jan 2024",
+      start: "Jul 2024",
       end: null,
       description: (
         <>
 
           <ul className="list-inside list-disc">
             <li>
-              Designed and developed high-performance applications using Java and Python
+              Built high-performance back-end components (Python, Django, Docker), increasing CodeWit.us throughput by 27%.
             </li>
             <li>
-              Built and integrated secure, scalable RESTful APIs, optimizing data transfer by 25%
+              Designed modular RESTful APIs to handle user submissions, test grading, and feedback, shortening response latency by 18%.
             </li>
             <li>
-              Enhanced data processing algorithms, boosting system efficiency by 22%
+              Optimized data flow using efficient algorithms and structures, boosting performance by 7.5% and reducing compute overhead.
             </li>
             <li>
-              Led Agile development efforts, improving project delivery speed by 28%
+              Refactored critical modules to eliminate redundant logic, lower technical debt by 16%, and improve long-term system stability.
+            </li>
+            <li>
+              Led cross-functional Agile sprints, aligning priorities and accelerating milestone delivery by 23%.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "IBM",
-      link: "https://www.ibm.com/us-en",
+      company: "Tally Solutions Pvt. Ltd.",
+      link: "https://tallysolutions.com/",
       badges: [
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-        "Spring Boot",
         "Java",
+        "Spring Boot",
+        "MySQL",
+        "Redis",
+        "ReactJS",
+        "RESTful APIs",
+        "JWT",
+        "RBAC",
+        "Agile",
+        "Git"
       ],
       title: "Software Developer",
       logo: ParabolLogo,
@@ -114,150 +130,90 @@ export const RESUME_DATA = {
           
           <ul className="list-inside list-disc">
             <li>
-              Architected backend systems for millions of users, improving system stability by 25%
+              Engineered inventory microservices (Java, Spring Boot, MySQL), enhancing procurement accuracy by 30% and cutting delivery mismatches across 15+ regional warehouses.
             </li>
             <li>
-              Deployed microservices using Spring Boot, reducing response times by 20%
+              Integrated Redis caching to reduce redundant DB queries, slashing API latency by 22% during peak reconciliation loads.
             </li>
             <li>
-              Managed relational and NoSQL databases, ensuring fast and reliable data access
+              Modularized back-end logic for finance and billing, speeding up feature delivery by 23% and cutting QA rework by 14%.
             </li>
             <li>
-              Created reusable software libraries, cutting development time by 30%
+              Delivered interactive billing dashboards (React and REST APIs), accelerating dispute resolution by 1.66 hours per ticket.
+            </li>
+            <li>
+              Secured APIs via JWT-based RBAC, reducing unauthorized access by 13% and simplifying role control for regional admins.
+            </li>
+            <li>
+              Partnered with product managers to align the back-end invoice logic with compliance policies, improving audit accuracy by 15% over two fiscal cycles.
             </li>
           </ul>
         </>
       ),
     },
-    // {
-    //   company: "Clevertech",
-    //   link: "https://clevertech.biz",
-    //   badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-    //   title: "Lead Android Developer → Full Stack Developer",
-    //   logo: ClevertechLogo,
-    //   start: "2015",
-    //   end: "2021",
-    //   description: (
-    //     <>
-    //       Successfully transitioned from mobile to full-stack development while
-    //       leading distributed teams.
-    //       <ul className="list-inside list-disc">
-    //         <li>
-    //           Led frontend team at Evercast, building real-time platform
-    //           supporting 30+ users per room with HD streaming and collaboration
-    //           tools
-    //         </li>
-    //         <li>
-    //           Developed offline-first Android app for DKMS, improving donor
-    //           registration process
-    //         </li>
-    //         <li>
-    //           Led development teams across multiple successful client projects
-    //         </li>
-    //         <li>
-    //           Created reusable software libraries, cutting development time by 30%.
-    //         </li>
-    //       </ul>
-    //     </>
-    //   ),
-    // },
-    // {
-    //   company: "Jojo Mobile",
-    //   link: "https://bsgroup.eu/",
-    //   badges: ["On Site", "Android", "Java", "Kotlin"],
-    //   title: "Android Developer → Lead Android Developer",
-    //   logo: JojoMobileLogo,
-    //   start: "2012",
-    //   end: "2015",
-    //   description: (
-    //     <>
-    //       First Android developer, grew and led a team of 15+ engineers while
-    //       establishing engineering culture.
-    //       <ul className="list-inside list-disc">
-    //         <li>
-    //           Developed apps for major Polish companies including LOT, Polskie
-    //           Radio, and Agora
-    //         </li>
-    //         <li>Built and mentored high-performing mobile development team</li>
-    //       </ul>
-    //     </>
-    //   ),
-    // },
-    // {
-    //   company: "Nokia Siemens Networks",
-    //   link: "https://www.nokia.com",
-    //   badges: ["On Site", "C/C++", "LTE", "Agile"],
-    //   title: "C/C++ Developer",
-    //   logo: NSNLogo,
-    //   start: "2010",
-    //   end: "2012",
-    //   description:
-    //     "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
-    // },
   ],
   skills: [
     "Java",
+    "Python",
+    "C++",
+    "JavaScript",
+    "TypeScript",
+    "SQL",
     "Spring Boot",
+    "Django",
+    "React",
+    "Angular",
+    "Node.js",
+    "Express.js",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "Tailwind",
+    "AWS (EC2, RDS, S3)",
     "Docker",
     "Kubernetes",
-    "AWS",
-    "Python",
-    "RESTful APIs",
-    "Agile",
-    "Scrum",
-    "Django",
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Team Leadership",
-    "ERP Solutions",
-    "CI/CD",
+    "Terraform",
+    "GitHub Actions",
     "PostgreSQL",
-    "Redis",
+    "MySQL",
     "MongoDB",
+    "JUnit",
+    "Jest",
+    "Mocha",
     "Git",
-    "Jira",
-    "Flutter",
-    "Android",
+    "GitHub",
+    "GitLab",
+    "JIRA",
+    "Trello",
+    "RESTful APIs",
+    "JWT",
+    "OAuth 2.0",
+    "RBAC",
+    "Agile/Scrum",
+    "Prometheus",
+    "SonarQube"
   ],
   projects: [
-//     Job Searching Portal: JAVA Spring Boot, MongoDB, React Aug 2023 - Sep 2023
-// Dec 2022 - Jan 2023
-// ▪ Developed a web portal for employers to post job openings and candidates to apply, streamlining the hiring process and reducing
-// application processing time by 6%.
     {
-      title: "HireSphere",
-      techStack: ["Java", "Spring Boot", "MongoDB", "React.js"],
+      title: "QuickBooks-style ERP System",
+      techStack: ["Java", "Spring Boot", "PostgreSQL", "Docker", "JWT", "Spring Security"],
       description:
-        "A modern web portal connecting employers and job seekers, simplifying the hiring process with intuitive design and seamless functionality.",
+        "A secure and scalable backend ERP system for inventory and accounts management with multi-tenant support, JWT-based RBAC, and CI/CD using Docker and GitHub Actions.",
       logo: MonitoLogo,
       link: {
-        label: "hiresphere.dev",
-        href: "https://github.com/murthy01",
+        label: "GitHub Repository",
+        href: "https://github.com/murthy-001/quickbooks-backend",
       },
     },
     {
-      title: "Megascends",
-      techStack: [
-        "TypeScript",
-        "React.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "Swastik Solutions Web Platform",
+      techStack: ["ReactJS", "Django", "PostgreSQL", "Razorpay API"],
       description:
-        "Webiste of a startup which offers dynamic web, software, and mobile applications for businesses.",
-      logo: ConsultlyLogo,
+        "A client-facing platform handling 10K+ daily API requests with secure Stripe-integrated payments, automated ERP syncing, and low-latency performance.",
+      logo: MonitoLogo,
       link: {
-        label: "megascends.com/",
-        href: "https://www.megascends.com/",
+        label: "swastiksolution.in",
+        href: "https://swastiksolution.in/",
       },
     },
     {
@@ -268,7 +224,29 @@ export const RESUME_DATA = {
       logo: MonitoLogo,
       link: {
         label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        href: "https://github.com/murthy-001/cv",
+      },
+    },
+    {
+      title: "PantryNode",
+      techStack: ["Node.js", "Express", "EJS", "MongoDB"],
+      description:
+        "A Node.js and EJS-based campus food pantry management system developed during the Software Engineering & Maintenance course, designed to streamline inventory tracking and student resource access.",
+      logo: MonitoLogo,
+      link: {
+        label: "GitHub Repository",
+        href: "https://github.com/murthy-001/PantryNode",
+      },
+    },
+    {
+      title: "HireSphere",
+      techStack: ["Java", "Spring Boot", "MongoDB", "React.js"],
+      description:
+        "A modern web portal connecting employers and job seekers, simplifying the hiring process with intuitive design and seamless functionality.",
+      logo: MonitoLogo,
+      link: {
+        label: "hiresphere.dev",
+        href: "https://github.com/murthy01",
       },
     },
   ],

@@ -93,11 +93,11 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
   return (
     <Card className="py-1 print:py-0">
       <CardHeader className="print:space-y-1">
-        <div className="flex items-center justify-between gap-x-2 text-base">
+        <div className="flex items-start justify-between gap-x-2 text-base">
           <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm">
             <CompanyLink company={company} link={link} />
             <BadgeList
-              className="hidden gap-x-1 sm:inline-flex"
+              className="flex-wrap gap-1 sm:flex"
               badges={badges}
             />
           </h3>

@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   location: "San Francisco, CA, United States",
   locationLink: "https://maps.app.goo.gl/L4LYsanf9WWVXKet5",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Performance-oriented Software Developer dedicated to building high-quality backend systems.",
   summary: (
     <>
       Software Developer with 4+ years of experience building and optimizing high-performance, cloud-native backend systems for

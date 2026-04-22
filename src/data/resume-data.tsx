@@ -19,11 +19,11 @@ export const RESUME_DATA = {
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
-      Software Developer with 4+ years of experience building secure, high-performance systems using Java, 
-      Spring Boot, Python, Django, and AWS. Completed MS in Computer Science from CSU Chico. Delivered scalable 
-      solutions like CodeWit.us and a QuickBooks-style ERP, improving API throughput by 22%, reducing 
-      infrastructure costs by 20%, and securing financial workflows using JWT and Spring Security. 
-      Skilled in API design, microservices, and containerized deployments.
+      Software Developer with 4+ years of experience building and optimizing high-performance, cloud-native backend systems for
+enterprise applications. Strong expertise in Java, Spring Boot, Python, microservices architecture, REST and GraphQL APIs, and
+distributed systems. Hands-on experience with Docker, Kubernetes, Azure Functions, CI/CD pipelines, and automated testing using
+JUnit, Mockito, and Selenium. Skilled in asynchronous processing, performance tuning, security (JWT, RBAC), and cross-functional
+collaboration to deliver secure, production-ready solutions in Agile environments.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/124085326?s=400&u=326b91d275d548cc7d206a6a960c0f1faaf0e23e&v=4",
@@ -66,11 +66,11 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "CSU, Chico",
+      company: "Walmart, USA",
       link: "https://www.csuchico.edu/",
       badges: [
-        "Python",
-        "Django",
+        "Java",
+        "Spring boot",
         "RESTful APIs",
         "Docker",
         "PostgreSQL",
@@ -79,29 +79,30 @@ export const RESUME_DATA = {
         "Scrum",
         "AWS"
       ],
-      title: "Software Engineer",
+      title: "Software Developer",
       logo: ConsultlyLogo,
-      start: "Jul 2024",
+      start: "Oct 2024",
       end: null,
       description: (
         <>
 
           <ul className="list-inside list-disc">
             <li>
-              Built high-performance back-end components (Python, Django, Docker), increasing CodeWit.us throughput by 27%.
-            </li>
+Develop and enhance high-performance backend services using Java, Spring Boot, and Python, applying multithreading and
+asynchronous processing to reduce system load and improve service efficiency by 28% across cloud-native enterprise applications.            </li>
             <li>
-              Designed modular RESTful APIs to handle user submissions, test grading, and feedback, shortening response latency by 18%.
-            </li>
+Design, implement, and optimize REST and GraphQL APIs supporting cross-service communication in distributed microservice
+architectures, accelerating data transfer by 32% and improving reliability under high-traffic workloads.            </li>
             <li>
-              Optimized data flow using efficient algorithms and structures, boosting performance by 7.5% and reducing compute overhead.
-            </li>
+Refactor application workflows and optimize data structures, memory usage, and JVM performance, reducing memory consumption
+by 27% and improving processing stability during peak traffic conditions.            </li>
             <li>
-              Refactored critical modules to eliminate redundant logic, lower technical debt by 16%, and improve long-term system stability.
-            </li>
+Deploy and manage cloud-native microservices using Docker, Kubernetes, and Azure Functions, enabling auto-scaling, improving
+fault tolerance, and reducing infrastructure costs by 20% through efficient resource utilization.            </li>
             <li>
-              Led cross-functional Agile sprints, aligning priorities and accelerating milestone delivery by 23%.
-            </li>
+Strengthen software quality and delivery by implementing automated unit, integration, and UI testing with JUnit, Mockito, and
+Selenium, achieving 92% test coverage, while integrating services into CI/CD pipelines in collaboration with DevOps teams to
+support reliable, secure releases.            </li>
           </ul>
         </>
       ),

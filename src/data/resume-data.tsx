@@ -81,7 +81,7 @@ collaboration to deliver secure, production-ready solutions in Agile environment
       ],
       title: "Software Developer",
       logo: ConsultlyLogo,
-      start: "Oct 2024",
+      start: "OCT 2024",
       end: null,
       description: (
         <>
@@ -124,7 +124,7 @@ support reliable, secure releases.            </li>
       ],
       title: "Software Developer",
       logo: ParabolLogo,
-      start: "MAR 2018",
+      start: "JUN 2019",
       end: "JUL 2022",
       description: (
         <>
